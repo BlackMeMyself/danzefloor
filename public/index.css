@@ -1,0 +1,3864 @@
+@font-face {
+    font-family: "swiperace";
+    src: url("/public/font/SwipeRacePro.ttf");
+}
+
+@font-face {
+    font-family: "graffiti";
+    src: url("/public/font/adrip1.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "swiperace";
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.artist {
+    float: left;
+    width: 20%;
+    margin: 0 5px;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 320px) {
+    .artist {
+        width: 80% !important;
+        margin: 0 auto !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    .artistresults .defaultimage {
+        width: 100% !important;
+        height: unset !important;
+    }
+    .avatar {
+        width: 75px !important;
+        height: 75px !important;
+    }
+    .backbtn {
+        font-size: 0.8em !important;
+        padding: 5px !important;
+    }
+    #bioForm #genrebio,
+    #citybio,
+    #countrybio,
+    #datebio {
+        width: 200px !important;
+        font-size: 0.7em !important;
+    }
+    #bioForm textarea {
+        width: 200px !important;
+        max-width: 200px !important;
+    }
+    .capsula {
+        width: 90% !important;
+        margin: 5px auto !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .capsulamy h3 a {
+        font-size: 0.3em;
+    }
+    .capsula div a {
+        font-size: 0.4em;
+        text-shadow: 1px 1px black !important;
+    }
+    .comEvents {
+        font-size: 0.6em !important;
+        width: 250px !important;
+        margin-right: unset !important;
+        padding-right: 10px !important;
+    }
+    .comingUpInfo {
+        font-size: 0.5em !important;
+    }
+    .comingUp .comingUpInfo div {
+        font-size: 1em !important;
+        width: 100px !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #drumnbass {
+        font-size: 0.6em !important;
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 0.6em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 0.6em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 0.6em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 0.6em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 0.6em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin: 0 auto !important;
+    }
+    .encabEv .evplace {
+        font-size: 0.7em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 28%;
+        vertical-align: super;
+    }
+    .encabEv .evtime {
+        font-size: 0.7em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 28%;
+        vertical-align: super;
+    }
+    .estilosfooter {
+        border-top: 2px solid chartreuse;
+        margin: 5px auto 0 auto;
+        width: 83%;
+    }
+    .estilosfooter1 {
+        border-bottom: 2px solid chartreuse;
+        width: 83%;
+        margin: 0 auto;
+    }
+    .estilosfooter li {
+        font-size: 0.5em !important;
+        display: block !important;
+        padding: 5px !important;
+    }
+    .estilosfooter1 li {
+        font-size: 0.5em !important;
+        display: block !important;
+        padding: 5px !important;
+    }
+    .fa-play {
+        font-size: 1.1em !important;
+    }
+    .forgotpass {
+        font-size: 0.4em !important;
+        width: 85% !important;
+    }
+    #formEvents h4 {
+        font-size: 0.7em !important;
+    }
+    #formEvents #lang-envnuevo {
+        font-size: 0.7em !important;
+    }
+    #formEvents #place,
+    #time {
+        width: 200px !important;
+        font-size: 0.7em !important;
+    }
+    #formEvents #time::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+    .form-l {
+        padding-top: 0px !important;
+    }
+    .form-l button {
+        font-size: 0.6em;
+        margin: 0 auto;
+    }
+    .form-l input[type=email],
+    .form-l input[type=password],
+    .form-l input[type=text] {
+        font-size: 0.7em !important;
+    }
+    .imagenfondo .about {
+        font-size: 1.3em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 257px !important;
+        margin: 0 auto;
+        text-decoration: underline;
+    }
+    .aboutP {
+        font-size: 0.8em !important;
+    }
+    .imagenfondo h2 {
+        font-size: 0.8em;
+    }
+    /* .imagenfondo .capsulamy a{
+        background-size: 10%;
+    } */
+    .imagenfondo .mysets {
+        font-size: 0.8em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content !important;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+    .imagenfondo .mytracks {
+        font-size: 0.8em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content !important;
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+    .imagenfondo .proform input {
+        font-size: 0.6em !important;
+        width: 200px;
+    }
+    .imagenfondo .proform button {
+        font-size: 0.7em;
+        margin-top: 10px;
+        width: 220px;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 0.6em !important;
+        height: 12px;
+        margin: 0 auto;
+        width: 75%;
+    }
+    .imagenfondo #sharesetform .uploads {
+        font-size: 0.7em !important;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.3em;
+        margin-top: 20px;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 0.6em !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform .uploads {
+        font-size: 0.65em !important;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 0.6em !important;
+        height: 12px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.3em !important;
+        margin-top: 20px;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.5em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 0.6em !important;
+        margin-top: 25px !important;
+    }
+    .imgcontainer {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    input::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+    .tittle {
+        font-size: 1.2em !important;
+        margin-top: 20px;
+    }
+    .lang-tracks {
+        font-size: 0.8em !important;
+    }
+    .logged .loggedcheck a {
+        margin-left: 10px !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck a i {
+        margin-top: 5px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck {
+        display: inline-block !important;
+        margin: 0 !important;
+    }
+    .logged .social {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .loggeduser {
+        font-size: 1.5em !important;
+    }
+    .livestream a {
+        font-size: 0.3em !important;
+    }
+    .livestream {
+        display: none !important;
+    }
+    .menufooter ul li a {
+        font-size: 0.7em !important;
+        padding-bottom: 60px !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 0.7em;
+        padding: 0 8px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.6em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 0.7em;
+        padding-right: 8px !important;
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin-left: 8px !important;
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin-right: 8px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 160px !important;
+        height: 45px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 20px !important;
+        background-repeat: no-repeat;
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 20px !important;
+        background-repeat: no-repeat;
+    }
+    .navlogged ul li {
+        display: block;
+    }
+    .navlogged ul li.displaynone {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    .nickArtist {
+        color: chartreuse;
+        font-size: 1.1em !important;
+    }
+    .playall span {
+        margin: 10px !important;
+        font-size: 0.5em;
+    }
+    .policy div {
+        width: 100% !important;
+    }
+    .profilemessage {
+        width: 100% !important;
+    }
+    .recommended {
+        font-size: 0.7em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .savebio {
+        width: 200px !important;
+        font-size: 0.7em !important;
+    }
+    #skipprofile,
+    #skipbio,
+    #skipevents {
+        font-size: 0.6em !important;
+        margin-top: 15px;
+    }
+    .setrackimage {
+        width: 20px !important;
+        height: 20px !important;
+        left: initial !important;
+    }
+    .setresults {
+        font-size: 0.8em !important;
+    }
+    .songname {
+        width: 50% !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 60% !important;
+        display: block !important;
+        float: unset !important;
+        margin: auto !important;
+    }
+    .trackinfo {
+        width: 100% !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 0.5em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .trackinfo h3 span {
+        font-size: 0.5em !important;
+    }
+    .toggle {
+        display: block !important;
+    }
+    .updComEv {
+        font-size: 0.7em !important;
+        width: 220px !important;
+        line-height: 5px !important;
+    }
+    .uploadbtn {
+        font-size: 0.6em !important;
+        width: 200px !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .artist {
+        width: 80% !important;
+        margin: 0 auto !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    .artistresults .defaultimage {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .artistresults h3 {
+        font-size: 1em !important;
+    }
+    #bioForm #genrebio,
+    #citybio,
+    #countrybio,
+    #datebio {
+        width: 85% !important;
+        display: block;
+    }
+    button {
+        font-size: 0.8em !important;
+        width: 200px !important;
+    }
+    input::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+    .capsula {
+        width: 85% !important;
+        margin: 5px auto !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .capsulamy {
+        width: 70%;
+    }
+    .capsulamy h3 a {
+        font-size: 0.4em;
+    }
+    #capsulamy.capsulamy h3 {
+        vertical-align: middle !important;
+        line-height: 1.6em !important;
+        margin-top: 0 !important;
+        font-size: 1.2em !important;
+    }
+    .comEvents {
+        font-size: 0.7em !important;
+        width: 270px !important;
+        margin-right: unset !important;
+        line-height: 15px!important;
+        vertical-align: super !important;
+    }
+    .comingUpInfo {
+        font-size: 0.9em !important;
+        text-align: center;
+    }
+    .comingUp .comingUpInfo div {
+        font-size: 1em !important;
+        width: 200px !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .playall span {
+        margin: 10px !important;
+        font-size: 0.5em;
+    }
+    .capsula div a {
+        font-size: 0.5em;
+        text-shadow: 1px 1px black !important;
+    }
+    #drumnbass {
+        font-size: 0.9em !important;
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 0.9em !important;
+        width: 37% !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 0.9em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 0.9em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 0.9em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 0.9em!important;
+        width: 32% !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 0.9em!important;
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+    .estilosfooter li {
+        font-size: 0.8em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    .estilosfooter1 li {
+        font-size: 0.8em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    .estilosfooter {
+        border-top: 2px solid chartreuse;
+        margin: 5px auto 0 auto;
+        width: 83%;
+    }
+    .estilosfooter1 {
+        border-bottom: 2px solid chartreuse;
+        width: 83%;
+        margin: 0 auto;
+    }
+    .evplace {
+        font-size: 1em !important;
+    }
+    .evtime {
+        font-size: 1em !important;
+    }
+    #formEvents h4 {
+        width: 100% !important;
+        font-size: 0.8em !important;
+    }
+    #formEvents #place,
+    #time {
+        font-size: 0.7em !important;
+        width: 90% !important;
+        display: block !important;
+    }
+    form input {
+        margin: 5px 0;
+    }
+    .form-l input[type=email],
+    .form-l input[type=password],
+    .form-l input[type=text] {
+        font-size: 0.7em !important;
+    }
+    .forgotpass {
+        width: 365px !important;
+        font-size: 0.6em !important;
+    }
+    .imagenfondo .about {
+        font-size: 1.3em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 257px !important;
+        margin: 0 auto;
+        text-decoration: underline;
+    }
+    .imgcontainer {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .imagenfondo h2 {
+        font-size: 0.8em !important;
+        margin: 0 auto;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .imagenfondo h3 {
+        font-size: 1.5em !important;
+        margin-top: unset !important;
+        width: 100% !important;
+    }
+    .imagenfondo .proform #avatar {
+        margin-top: 40px !important;
+    }
+    .imagenfondo .proform input {
+        font-size: 0.6em !important;
+        width: 300px;
+    }
+    .imagenfondo .proform .nickn {
+        font-size: 0.7em !important;
+    }
+    .imagenfondo .proform button {
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 0.7em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .imagenfondo #sharesetform .uploads {
+        font-size: 0.8em !important;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.3em;
+        margin-top: 30px;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 0.8em !important;
+        margin-top: 15px !important;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 0.7em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .imagenfondo #sharetrackform .uploads {
+        font-size: 0.7em !important;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.3em !important;
+        margin-top: 30px;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.6em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 0.8em !important;
+        margin-top: 15px !important;
+    }
+    .tittle {
+        font-size: 1.3em !important;
+        margin-top: 20px;
+    }
+    #lang-envnuevo {
+        font-size: 0.8em !important;
+    }
+    .logged .loggedcheck a {
+        margin-left: 10px !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck a i {
+        margin-top: 4px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .logged .social {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .livestream a {
+        font-size: 0.3em !important;
+    }
+    .livestream {
+        display: none !important;
+    }
+    /* .imagenfondo .proform input[type=file]{
+        margin-top: 20px !important;
+    } */
+    .menufooter ul li a {
+        font-size: 0.7em !important;
+        padding-bottom: 60px !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 0.7em;
+        padding: 0 8px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.6em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 0.7em;
+        padding-right: 8px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin-left: 8px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 20px;
+        background-repeat: no-repeat;
+        margin-right: 8px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 160px !important;
+        height: 45px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 20px !important;
+        background-repeat: no-repeat;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        width: 30px !important;
+        /* padding-top: 30px !important; */
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 20px !important;
+        background-repeat: no-repeat;
+        /* padding-top: 30px !important; */
+    }
+    .mysets {
+        width: fit-content !important;
+        padding: 0 5px;
+    }
+    .mytracks {
+        width: fit-content !important;
+        padding: 0 5px;
+    }
+    .navlogged ul li a {
+        font-size: 0.65em !important;
+    }
+    .navlogged ul li {
+        display: block !important;
+        padding: 5px !important;
+    }
+    .navlogged ul li.displaynone {
+        display: none !important;
+    }
+    #nav {
+        display: none;
+    }
+    .nickArtist {
+        color: chartreuse;
+        font-size: 1.2em !important;
+    }
+    .policy div {
+        width: 100% !important;
+    }
+    .profilemessage {
+        width: 350px !important;
+    }
+    .proform {
+        margin-top: 0 !important;
+    }
+    .proform button {
+        width: 300px!important;
+    }
+    .recommended {
+        font-size: 0.8em !important;
+    }
+    .savebio {
+        font-size: 0.8em !important;
+    }
+    .songname {
+        width: 50% !important;
+    }
+    .setrackimage {
+        width: 30px !important;
+        height: 30px !important;
+        left: initial !important;
+    }
+    h3.setresults {
+        font-size: 0.8em !important;
+    }
+    #bioForm textarea {
+        width: 90% !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 60% !important;
+        display: block !important;
+        float: unset !important;
+        margin: auto !important;
+    }
+    .trackinfo {
+        width: 100% !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 0.6em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.8em!important;
+    }
+    .toggle {
+        display: block !important;
+    }
+    .updComEv {
+        width: 90% !important;
+    }
+    .search {
+        font-size: 0.65em !important;
+        width: 150px !important;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .artist {
+        width: 40% !important;
+        float: left;
+        display: block !important;
+        margin: 0 0 0 7.5% !important;
+        padding: 0 !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        width: 180px;
+        height: 180px;
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.7em !important;
+        text-align: center;
+    }
+    .artistresults .defaultimage {
+        border-radius: 50% !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    #bioForm #genrebio,
+    #citybio,
+    #countrybio,
+    #datebio {
+        width: 65% !important;
+        display: block !important;
+    }
+    button {
+        font-size: 0.7em !important;
+    }
+    .capsula {
+        width: 70% !important;
+        margin: 5px auto !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .capsula div a {
+        font-size: 0.7em;
+        text-shadow: 1px 1px black !important;
+    }
+    .capsulamy h3 a {
+        font-size: 0.3em;
+    }
+    #capsulamy.capsulamy h3 {
+        vertical-align: middle !important;
+        line-height: 1em !important;
+        margin-top: 0 !important;
+        font-size: 1.8em !important;
+    }
+    .capsula i {
+        margin: 0 5px !important;
+        font-size: 1.2em !important;
+    }
+    .capsulamy {
+        width: 80% !important;
+    }
+    .comEvents {
+        color: black;
+        text-align: right;
+        float: right;
+        padding-right: 20px;
+        background-color: chartreuse;
+        display: block;
+        margin-right: 20px;
+        width: 380px !important;
+        font-size: 0.9em !important;
+    }
+    /* .defaultimage {
+        border-radius: 50% !important;
+        width: 30px !important;
+        height: 30px !important;
+    } */
+    #drumnbass {
+        font-size: 0.8em !important;
+        width: 47% !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 0.8em !important;
+        width: 28% !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 0.8em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 0.8em !important;
+        width: 22% !important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 0.8em !important;
+        width: 24% !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 0.8em !important;
+        width: 22% !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 0.8em !important;
+        width: 35% !important;
+        margin: 0 auto !important;
+    }
+    .evplace {
+        font-size: 1.1em !important;
+        width: 190px !important;
+        margin-bottom: 15px !important;
+    }
+    .evtime {
+        font-size: 1.1em !important;
+        width: 190px !important;
+        margin-bottom: 15px !important;
+    }
+    .playall span {
+        margin: 10px !important;
+        font-size: 0.5em;
+    }
+    .imagenfondo h2 {
+        font-size: 1.3em !important;
+    }
+    .estilosfooter li {
+        font-size: 1.1em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    .estilosfooter1 li {
+        font-size: 1.1em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    /* .estilosfooter li a {
+        font-family: "swiperace";
+        font-size: 0.7em !important;
+        padding: 0px 10px;
+        cursor: pointer;
+    } */
+    .estilosfooter {
+        border-top: 2px solid chartreuse;
+        margin: 5px auto 0 auto;
+        width: 83%;
+    }
+    .estilosfooter1 {
+        border-bottom: 2px solid chartreuse;
+        width: 83%;
+        margin: 0 auto;
+    }
+    .forgotpass {
+        width: 50% !important;
+        font-size: 0.7em !important;
+    }
+    .form-l input[type=email],
+    .form-l input[type=password],
+    .form-l input[type=text] {
+        font-size: 0.9em !important;
+    }
+    #formEvents #place,
+    #time {
+        width: 90% !important;
+        display: block !important;
+    }
+    .imagenfondo h2 {
+        font-size: 1em !important;
+    }
+    .imagenfondo h3 {
+        font-size: 1.8em !important;
+        margin: 0 auto !important;
+        width: 80%!important;
+    }
+    .imagenfondo .proform input {
+        font-size: 0.9em !important;
+    }
+    .imagenfondo .proform .nickn {
+        font-size: 0.9em !important;
+        width: 100% !important;
+    }
+    .imagenfondo .proform button {
+        font-size: 1.1em;
+        margin: 10px auto;
+        width: 70% !important;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 0.8em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharesetform .uploads {
+        font-size: 1.1em !important;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.8em !important;
+        width: 43% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 0.8em !important;
+        margin-top: 30px !important;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 0.8em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharetrackform .uploads {
+        font-size: 1.1em !important;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.8em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.8em !important;
+        width: 43% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 0.8em !important;
+        margin-top: 30px !important;
+    }
+    .imgcontainer {
+        border-radius: 50% !important;
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .tittle {
+        font-size: 1.9em !important;
+        margin-top: 20px;
+    }
+    .logged .loggedcheck a {
+        margin-left: 15px !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck a i {
+        margin-top: 5px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck {
+        display: inline-block !important;
+        margin: 0 !important;
+    }
+    .logged .social {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .livestream a {
+        font-size: 0.5em !important;
+    }
+    .livestream {
+        display: none !important;
+    }
+    .menufooter ul li a {
+        font-size: 0.7em !important;
+        padding-bottom: 60px !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 1em;
+        padding: 0 8px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 1em;
+        padding-right: 8px !important;
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 8px !important;
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-right: 8px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 220px !important;
+        height: 47px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 40px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 40px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 40px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .navlogged ul li a {
+        font-size: 0.65em !important;
+    }
+    .navlogged ul li {
+        display: block !important;
+        padding: 5px !important;
+    }
+    .navlogged ul li.displaynone {
+        display: none !important;
+    }
+    #nav {
+        display: none;
+    }
+    .policy div {
+        font-size: 1.2em !important;
+        width: 100% !important;
+    }
+    .profilemessage {
+        width: 90% !important;
+        font-size: 0.7em !important;
+    }
+    .recommended {
+        font-size: 0.6em !important;
+        width: 88% !important;
+    }
+    .setrackimage {
+        width: 40px !important;
+        height: 40px !important;
+        left: initial !important;
+    }
+    .setrackimage {
+        width: 30px !important;
+        height: 30px !important;
+        left: initial !important;
+    }
+    h3.setresults {
+        font-size: 1em !important;
+    }
+    .songname {
+        width: 50% !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 60% !important;
+        display: block !important;
+        float: unset !important;
+        margin: auto !important;
+    }
+    .trackinfo {
+        width: 100% !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 0.9em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.7em !important;
+    }
+    .toggle {
+        display: block !important;
+    }
+    .search {
+        font-size: 0.65em !important;
+        width: 180px !important;
+    }
+    h3.updComEv {
+        font-size: 1.1em !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+    .artist {
+        width: 40% !important;
+        float: left;
+        display: block !important;
+        margin: 0 0 0 7.5% !important;
+        padding: 0 !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    #bioForm #genrebio,
+    #citybio,
+    #countrybio,
+    #datebio {
+        width: 90% !important;
+    }
+    #bioForm textarea {
+        width: 90% !important;
+    }
+    .capsula {
+        width: 70% !important;
+        margin: 5px auto !important;
+    }
+    .capsula div a {
+        font-size: 0.9em;
+        text-shadow: 1px 1px black !important;
+    }
+    .capsulamy {
+        width: 70%;
+    }
+    .capsulamy h3 a {
+        font-size: 0.4em;
+    }
+    .capsulamy h3 {
+        margin-top: 0 !important;
+    }
+    .comEvents {
+        font-size: 1em !important;
+        width: 390px !important;
+    }
+    .defaultimage {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    #drumnbass {
+        font-size: 1.1em !important;
+        width: 47% !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 1.1em !important;
+        width: 28% !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 1.1em !important;
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 1.1em!important;
+        width: 22% !important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 1.1em !important;
+        width: 24% !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 1.1em !important;
+        width: 22% !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 1.1em !important;
+        width: 35% !important;
+        margin: 0 auto !important;
+    }
+    .playall span {
+        margin: 35px !important;
+        font-size: 0.7em;
+    }
+    .imagenfondo h2 {
+        font-size: 1.6em !important;
+        margin: 0 auto !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .estilosfooter li {
+        font-size: 1.1em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    .estilosfooter1 li {
+        font-size: 1.1em !important;
+        display: block !important;
+        padding: 5px 0 !important;
+    }
+    .estilosfooter {
+        border-top: 2px solid chartreuse;
+        margin: 5px auto 0 auto;
+        width: 83%;
+    }
+    .estilosfooter1 {
+        border-bottom: 2px solid chartreuse;
+        width: 83%;
+        margin: 0 auto;
+    }
+    .evplace {
+        font-size: 1.1em !important;
+        width: 190px !important;
+        margin-bottom: 15px !important;
+    }
+    .evtime {
+        font-size: 1.1em !important;
+        width: 190px !important;
+        margin-bottom: 15px !important;
+    }
+    #formEvents button {
+        font-size: 1em !important;
+    }
+    h3.setresults {
+        font-size: 1em !important;
+    }
+    .imagenfondo h3 {
+        font-size: 1.5em;
+        margin-top: 30px;
+    }
+    .imagenfondo .avatar {
+        width: 120px;
+        height: 120px;
+    }
+    .imagenfondo .proform input {
+        font-size: 1em !important;
+        margin-top: 5px !important;
+    }
+    .imagenfondo .proform .nickn {
+        font-size: 1.2em !important;
+        margin-top: 15px !important;
+        width: 90% !important;
+    }
+    .imagenfondo .proform button {
+        font-size: 0.8em !important;
+        margin-top: 10px !important;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+        line-height: 0em !important;
+    }
+    .imagenfondo #sharesetform .uploads {
+        font-size: 1.3em !important;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.8em;
+        margin-top: 25px;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.9em !important;
+        width: 42% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 1em !important;
+        margin-top: 35px;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+        line-height: -1em !important;
+    }
+    .imagenfondo #sharetrackform .uploads {
+        font-size: 1.3em !important;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.8em;
+        margin-top: 25px;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.9em !important;
+        width: 40% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.9em !important;
+        width: 42% !important;
+        margin-top: 25px !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 1em !important;
+        margin-top: 35px !important;
+    }
+    input::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+    .imgcontainer {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .tittle {
+        font-size: 2.5em !important;
+        margin-top: 20px;
+    }
+    .logged .loggedcheck a {
+        padding: 0 !important;
+    }
+    .logged .loggedcheck a i {
+        margin-top: 5px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck {
+        display: inline-block !important;
+        text-align: right !important;
+        margin-bottom: 10px !important;
+        width: 95% !important;
+        margin-left: unset !important;
+    }
+    .logged .social {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .livestream a {
+        font-size: 0.55em !important;
+    }
+    .livestream {
+        display: none !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 1em;
+        padding: 0 8px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 1em;
+        padding-right: 8px !important;
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 8px !important;
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-right: 8px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 270px !important;
+        height: 65px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    h2.mysets {
+        font-size: 1em !important;
+        width: fit-content !important;
+        padding: 0 5px !important;
+    }
+    h2.mytracks {
+        font-size: 1em !important;
+        width: fit-content !important;
+        padding: 0 5px !important;
+    }
+    .navlogged ul li a {
+        font-size: 1em !important;
+    }
+    .navlogged ul li {
+        display: block !important;
+        padding: 5px !important;
+    }
+    .navlogged ul li.displaynone {
+        display: none !important;
+    }
+    #nav {
+        display: none;
+    }
+    .policy div {
+        width: 100% !important;
+    }
+    .profilemessage {
+        font-size: 1em !important;
+        width: 75% !important;
+    }
+    .recommended {
+        width: 60% !important;
+    }
+    .setrackimage {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .savebio {
+        font-size: 0.8em !important;
+    }
+    .songname {
+        width: 50% ! important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 60% !important;
+        display: block !important;
+        float: unset !important;
+        margin: auto !important;
+    }
+    .trackinfo {
+        width: 100% !important;
+        display: block !important;
+        float: unset !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 1.1em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.8em !important;
+    }
+    .toggle {
+        display: block !important;
+    }
+    .updComEv {
+        width: 80% !important;
+    }
+    .search {
+        font-size: 1em !important;
+        width: 190px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+    .artist {
+        width: 30% !important;
+        float: left;
+        display: block !important;
+        margin: 0 0 0 2.5% !important;
+        padding: 0 !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    .capsula {
+        width: 70% !important;
+        margin: 5px auto !important;
+    }
+    .capsula div a {
+        font-size: 0.9em;
+        text-shadow: 1px 1px black !important;
+    }
+    .capsulamy {
+        width: 70%;
+    }
+    .capsulamy h3 a {
+        font-size: 0.4em;
+        width: 50% !important;
+    }
+    .capsulamy h3 {
+        margin-top: 0 !important;
+    }
+    .comEvents {
+        font-size: 1em !important;
+        width: 400px !important;
+    }
+    .defaultimage {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    #drumnbass {
+        font-size: 1.1em !important;
+        width: 37% !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 1.1em !important;
+        width: 21% !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 1.1em !important;
+        width: 21% !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 1.1em!important;
+        width: 15% !important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 1.1em !important;
+        width: 20% !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 1.1em !important;
+        width: 20% !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 1.1em !important;
+        width: 25% !important;
+        margin: 0 auto !important;
+    }
+    .encabEv .evplace {
+        font-size: 1.2em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content !important;
+        vertical-align: super;
+        padding: 0 5px !important;
+    }
+    .encabEv .evtime {
+        font-size: 1.2em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content !important;
+        vertical-align: super;
+        padding: 0 5px !important;
+    }
+    .playall span {
+        margin: 30px 55px 10px 55px !important;
+        font-size: 0.9em;
+    }
+    .imagenfondo h2 {
+        font-size: 1.2em !important;
+        margin: 0 auto !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .updComEv {
+        font-size: unset !important;
+        font-size: 1em !important;
+        width: 80% !important;
+    }
+    h3.setresults {
+        font-size: 1em !important;
+    }
+    .imagenfondo h3 {
+        font-size: 1.7em;
+    }
+    .imagenfondo .avatar {
+        width: 120px;
+        height: 120px;
+    }
+    .imagenfondo .proform input {
+        font-size: 1em !important;
+        margin-top: 5px !important;
+    }
+    .imagenfondo .proform .nickn {
+        font-size: 1.2em !important;
+        margin-top: 15px !important;
+        width: 60% !important;
+    }
+    .imagenfondo .proform button {
+        font-size: 1em !important;
+        margin-top: 10px !important;
+        width: 60% !important;
+    }
+    .estilosfooter li {
+        font-size: 0.7em !important;
+    }
+    .estilosfooter1 li {
+        font-size: 0.7em !important;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharesetform .uploads {
+        font-size: 1.3em !important;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.9em;
+        margin-top: 30px;
+        width: 95%;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 0.9em !important;
+        margin-top: 30px;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharetrackform .uploads {
+        font-size: 1.3em !important;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.9em;
+        margin-top: 30px;
+        width: 95%;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 0.9em !important;
+        margin-top: 30px !important;
+    }
+    .imgcontainer {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    input::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+    div.tittle {
+        font-size: 3.2em !important;
+    }
+    .logged .loggedcheck a i {
+        margin-left: 35px !important;
+        padding: 0 !important;
+    }
+    .logged .loggedcheck {
+        display: inline-block !important;
+        text-align: right !important;
+        margin-bottom: 10px !important;
+        width: 95% !important;
+        margin-left: unset !important;
+    }
+    .logged .social {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    .livestream {
+        display: none !important;
+        margin-bottom: 10px;
+    }
+    .livestream a {
+        font-size: 0.55em !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 1em;
+        padding: 0 15px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 1em;
+        padding-right: 15px !important;
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 15px !important;
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-right: 15px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 320px !important;
+        height: 65px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .mysets {
+        width: fit-content !important;
+        padding: 0 5px;
+    }
+    .mytracks {
+        width: fit-content !important;
+        padding: 0 5px;
+    }
+    .nickArtist {
+        font-size: 1.2em !important;
+    }
+    .policy div {
+        width: 50% !important;
+    }
+    .profilemessage {
+        font-size: 1em !important;
+        width: 90% !important;
+    }
+    .recommended {
+        width: 85% !important;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .setrackimage {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .songname {
+        width: 60% !important;
+    }
+    .subButton {
+        font-size: 1.1em !important;
+        width: 42% !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 35% !important;
+    }
+    .trackinfo {
+        width: 65% !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 1em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.7em !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+    .artist {
+        width: 20% !important;
+        float: left;
+        display: block !important;
+        margin: 0 0 0 4% !important;
+        padding: 0 !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    .artistresults h3 {
+        font-size: 1.3em;
+    }
+    .imagenfondo h3 {
+        font-size: 1.8em;
+    }
+    .capsula {
+        width: 70% !important;
+        margin: 5px auto !important;
+    }
+    .capsula div a {
+        font-size: 0.9em;
+        text-shadow: 1px 1px black !important;
+    }
+    .capsulamy {
+        width: 70%;
+    }
+    .capsulamy h3 a {
+        font-size: 0.6em;
+    }
+    .capsulamy h3 {
+        margin-top: 0 !important;
+    }
+    .defaultimage {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    #drumnbass {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    #dubstep {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    #electro {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    #house {
+        font-size: 1.1em!important;
+        margin: 0 auto !important;
+    }
+    #jungle {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    #techno {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    #ukgarage {
+        font-size: 1.1em !important;
+        margin: 0 auto !important;
+    }
+    .encabEv h4 {
+        font-size: 1.2em !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .forgotpass {
+        font-size: 0.9em !important;
+        width: fit-content !important;
+    }
+    h3.setresults {
+        font-size: 1.3em !important;
+    }
+    .playall span {
+        margin: 45px 85px 10px 85px !important;
+        font-size: 0.9em;
+    }
+    .imagenfondo h2 {
+        font-size: 1.4em;
+        width: fit-content !important;
+        padding-right: 5px !important;
+        margin: 0 auto !important;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharesetform #file {
+        font-size: 0.9em;
+        margin-top: 30px;
+        width: 75%;
+    }
+    .imagenfondo #sharesetform #duration {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform #filesize {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform #filetype {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 1.1em !important;
+        margin-top: 30px;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .imagenfondo #sharetrackform #file {
+        font-size: 0.9em;
+        margin-top: 30px;
+        width: 75%;
+    }
+    .imagenfondo #sharetrackform #duration {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform #filesize {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform #filetype {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.8em !important;
+        margin-top: 25px;
+        width: 20% !important;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 1.1em !important;
+        margin-top: 30px !important;
+    }
+    .imgcontainer {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .tittle {
+        font-size: 4.3em !important;
+        margin-top: 5px !important;
+    }
+    .logged .loggedcheck {
+        margin-left: 55px !important;
+        padding: 0 !important;
+    }
+    .logged .social {
+        margin-right: 55px !important;
+    }
+    .musicplayer #title #timer {
+        font-size: 1em;
+        padding: 0 15px;
+    }
+    .musicplayer #title #track {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        width: 60%;
+        text-align: center;
+    }
+    .musicplayer #title #durationp {
+        font-size: 1em;
+        padding-right: 15px !important;
+    }
+    .musicplayer .controlsOuter #playlistBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-left: 15px !important;
+    }
+    .musicplayer .controlsOuter #volumeBtn {
+        background-size: 30px;
+        background-repeat: no-repeat;
+        margin-right: 15px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner {
+        width: 320px !important;
+        height: 65px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #prevBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .musicplayer .controlsOuter .controlsInner #loading {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #playBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #pauseBtn {
+        background-size: 60px;
+        background-repeat: no-repeat;
+        width: 60px !important;
+    }
+    .musicplayer .controlsOuter .controlsInner #nextBtn {
+        background-size: 30px !important;
+        background-repeat: no-repeat;
+    }
+    .mysets {
+        font-size: 1.2em !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .mytracks {
+        font-size: 1.2em !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .navlogged li a {
+        font-size: 0.5em;
+        padding: auto 0px;
+    }
+    .profilemessage {
+        font-size: 1em !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .policy div {
+        width: 60% !important;
+    }
+    .proform .nickn {
+        width: 60% !important;
+    }
+    .recommended {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        width: fit-content !important;
+        padding: 5px !important;
+    }
+    .search {
+        font-size: 0.5em !important;
+    }
+    .setrackimage {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .songname {
+        width: 50% !important;
+    }
+    .subButton {
+        font-size: 0.9em !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 25% !important;
+    }
+    .trackinfo {
+        width: 65% !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 1.2em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.9em !important;
+    }
+    .updComEv {
+        font-size: 1.3em !important;
+        width: fit-content!important
+    }
+    .uploadbtn {
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 1351px) and (max-width: 1450px) {
+    .artist {
+        width: 20% !important;
+        float: left;
+        display: block !important;
+        margin: 0 0 0 4% !important;
+        padding: 0 !important;
+    }
+    .artist a {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .artist a img {
+        display: block;
+        margin: 0 auto;
+    }
+    .artist a h4 {
+        font-size: 0.8em !important;
+        text-align: center;
+    }
+    .capsulamy {
+        width: 70%;
+    }
+    .capsulamy h3 a {
+        font-size: 0.6em;
+    }
+    .capsulamy h3 {
+        margin-top: 0 !important;
+    }
+    .playall span {
+        margin: 45px 85px 10px 85px !important;
+        font-size: 1em;
+    }
+    .artistresults h3 {
+        font-size: 1.3em !important;
+    }
+    .imagenfondo h3 {
+        font-size: 1.8em;
+    }
+    .imagenfondo #sharesetform button {
+        font-size: 1em;
+    }
+    .imagenfondo #sharetrackform button {
+        font-size: 1em;
+    }
+    .imagenfondo #sharesetform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 30%;
+    }
+    .imagenfondo #sharetrackform .uploadbtn {
+        font-size: 1em !important;
+        height: 16px;
+        margin: 0 auto;
+        width: 30%;
+    }
+    .imagenfondo #sharesetform select {
+        font-size: 0.8em;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.8em;
+    }
+    .imagenfondo #sharesetform input {
+        font-size: 0.8em;
+    }
+    .imagenfondo #sharetrackform input {
+        font-size: 0.8em;
+    }
+    .imagenfondo #sharetrackform select {
+        font-size: 0.8em;
+    }
+    .capsula {
+        width: 70% !important;
+        margin: 5px auto !important;
+    }
+    .capsula div a {
+        font-size: 0.9em;
+        text-shadow: 1px 1px black !important;
+    }
+    .imagenfondo h2 {
+        font-size: 1.6em !important;
+    }
+    .tittle {
+        font-size: 5.8em !important;
+    }
+    .track {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .track img {
+        width: 25% !important;
+    }
+    .trackinfo {
+        width: 65% !important;
+    }
+    .trackinfo h3 {
+        padding: 7px !important;
+        font-size: 1.2em !important;
+        text-align: left !important;
+        white-space: nowrap !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0 !important;
+    }
+    .trackinfo h3 span {
+        font-size: 0.9em !important;
+    }
+}
+
+@media only screen and (min-width: 1451px) and (max-width: 1650px) {
+    .tittle {
+        font-size: 6.2em !important;
+    }
+    .estilosfooter li {
+        font-size: 1em !important;
+        padding: 5px !important;
+    }
+    .estilosfooter1 li {
+        font-size: em !important;
+        padding: 5px !important;
+    }
+}
+
+@media only screen and (min-width: 1951px) and (max-width: 2250px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 2251px) and (max-width: 2650px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 2651px) and (max-width: 3050px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 3051px) and (max-width: 3450px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 3451px) and (max-width: 3850px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 3851px) and (max-width: 4150px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+@media only screen and (min-width: 4151px) and (max-width: 4420px) {
+    .tittle {
+        font-size: 5.8em !important;
+    }
+}
+
+.toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.acomEvents {
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.backbtn {
+    font-size: 1em;
+    background-color: chartreuse;
+    border-radius: 10px;
+    border: 3px solid black;
+    color: black;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.artRes {
+    font-size: 1.2em !important;
+}
+
+.artists {
+    margin: 30px 10px;
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.artist {
+    width: 19%;
+    float: left;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 .16%;
+    margin-bottom: 10px !important;
+    padding: 0;
+    height: 150px;
+}
+
+.artist a {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.artist a img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.artist a h4 {
+    font-size: 0.8em !important;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*-webkit-text-stroke: 1px black;*/
+}
+
+.artistresults h3 {
+    display: block;
+    color: chartreuse;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.artistresults span {
+    color: chartreuse;
+    vertical-align: top;
+    font-family: "swiperace";
+    font-size: 8em;
+    display: inline;
+    line-height: 0.8em;
+    margin-left: 150px;
+}
+
+.artists h4 {
+    font-size: 1.05em;
+    color: chartreuse;
+}
+
+audio {
+    vertical-align: middle;
+}
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.avatar#avatarId {
+    display: block;
+    margin: 0 auto;
+}
+
+#bioForm textarea {
+    min-width: 41%;
+    background-color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: chartreuse;
+    margin: 0 auto;
+    display: block;
+}
+
+#bioForm #genrebio,
+#citybio,
+#countrybio,
+#datebio {
+    width: 40%;
+    display: block;
+}
+
+.bioResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: chartreuse;
+    margin: 0 auto;
+}
+
+.bioResult div {
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: url("/public/img/techlogo1.jpg");
+    height: 90px;
+}
+
+.ui-dialog-titlebar button {
+    width: 20px !important;
+}
+
+button {
+    font-family: "swiperace";
+    padding: 5px;
+    display: block;
+    margin: 14px auto;
+    font-size: 1em;
+    background-color: chartreuse;
+    width: fit-content !important;
+    overflow: hidden;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.capsula {
+    width: 50%;
+    margin: 5px 30px;
+    padding: 5px 15px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    align-items: center;
+}
+
+.capsula i {
+    margin: 0 5px;
+    font-size: 1.5em;
+}
+
+.capsula div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px black;
+}
+
+.capsulamy {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px 15px;
+    text-align: center;
+    display: flex;
+}
+
+.capsulamy h3 {
+    color: black;
+    font-size: 1.7em;
+    font-weight: lighter;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    color: chartreuse;
+}
+
+.capsulamy h3 a {
+    color: chartreuse;
+    text-shadow: 1px 1px black;
+    vertical-align: middle !important;
+}
+
+.capsulamy a i {
+    color: chartreuse;
+    font-size: 1.2em;
+    margin: 5px 5px !important;
+    vertical-align: bottom;
+}
+
+.capsulamy i a:hover {
+    background-color: black;
+    color: white;
+}
+
+.chooseAvatar {
+    display: flex;
+    justify-content: center;
+}
+
+.comingUp .comingUpInfo {
+    display: flex;
+    justify-content: space-evenly;
+    color: chartreuse;
+    font-size: 0.8em;
+}
+
+.comingUp .comingUpInfo div {
+    font-size: 1em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.comEvents {
+    color: black;
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+    background-color: chartreuse;
+    display: block;
+    margin-right: 20px;
+    width: 400px;
+    font-size: 1em;
+}
+
+.comingUpInfo {
+    margin-top: 25px;
+}
+
+.defaultimage {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.defaultimage.zoomImage:hover {
+    position: absolute;
+    background-color: chartreuse;
+    width: 15%;
+    margin-top: -100px;
+    height: unset;
+    border-radius: unset;
+}
+
+.encabEv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.encabEv h4 {
+    text-decoration: underline chartreuse;
+    margin-bottom: 40px;
+    font-size: 1.4em;
+    color: chartreuse;
+}
+
+.dialogmsg {
+    background-color: black !important;
+    color: chartreuse;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displaynoneaux {
+    display: none !important;
+}
+
+.displayblock {
+    display: block !important;
+}
+
+.dj {
+    margin: 100px;
+}
+
+.downl {
+    color: chartreuse !important;
+}
+
+#drumnbass {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#dubstep {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#electro {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#house {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#jungle {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#techno {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#ukgarage {
+    font-size: 1em!important;
+    width: fit-content !important;
+    padding: 5px !important;
+    margin: 0 auto !important;
+}
+
+#duration {
+    width: 20%;
+}
+
+.estilosfooter {
+    display: none;
+    z-index: 1;
+}
+
+.estilosfooter1 {
+    display: none;
+    z-index: 1;
+}
+
+.estilosfooter li a {
+    font-family: "swiperace";
+    font-size: 1.10em;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.estilosfooter1 li a {
+    font-family: "swiperace";
+    font-size: 1.10em;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.evplace {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.evtime {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    background: -webkit-linear-gradient(45deg, #fcaf45, #fd1d1d, #c13584, #405de6);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-play {
+    color: chartreuse !important;
+}
+
+.fa-sm {
+    font-size: 0.92em;
+    margin-left: 7px;
+}
+
+.fa-trash {
+    font-size: 1.4em;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.fa-youtube-square {
+    color: #c4302b;
+}
+
+#filetype {
+    width: 20%;
+}
+
+#filesize {
+    width: 22%;
+}
+
+footer {
+    text-align: center;
+    display: inline;
+}
+
+footer li a {
+    color: chartreuse;
+    display: inline;
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+}
+
+#formEvents #place,
+#time {
+    width: 40%;
+    display: block !important;
+}
+
+#formEvents h4 {
+    color: chartreuse;
+    text-align: center;
+}
+
+.forgotpass {
+    background-color: chartreuse;
+    color: black;
+    width: 30%;
+    padding: 5px 5px;
+    font-size: 0.9em;
+    width: fit-content !important;
+}
+
+form label {
+    margin-top: 10px;
+    padding: 8px 0 4px 0;
+    font-family: "swiperace";
+    color: black;
+    background-color: chartreuse;
+    font-size: 1.5em;
+    display: block;
+    line-height: 0.6em;
+}
+
+.form-l input {
+    font-size: 1.5em;
+}
+
+form input {
+    font-family: "swiperace";
+    color: chartreuse;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 6px;
+    width: 83%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.form-l {
+    text-align: center;
+    padding-top: 60px;
+}
+
+form input::-webkit-input-placeholder {
+    color: chartreuse;
+    text-align: center;
+}
+
+form select {
+    font-family: "swiperace";
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 18%;
+    font-size: 1em;
+}
+
+h3#genreTitle.genreTitle {
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    color: gold;
+    margin: 0 auto;
+}
+
+#genresContainer .genreM {
+    margin-bottom: 20px;
+}
+
+
+/* 
+.halftittle {
+    text-decoration: line-through black;
+} */
+
+header {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.9em;
+    text-align: center;
+    color: chartreuse;
+    text-decoration: none;
+    font-family: "swiperace";
+}
+
+h2 a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*h3{
+    display: inline;
+    margin-left:575px ;
+    color:chartreuse
+}*/
+
+h2.mysets {
+    font-size: 1.4em !important;
+}
+
+.heart {
+    color: rgb(197, 35, 35)!important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/*i{
+    color: chartreuse;
+    margin: 5px;
+    display: inline;
+}*/
+
+.imagenfondo h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.imgcontainer {
+    border: 3px solid chartreuse;
+    background-color: chartreuse;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.imagenfondo {
+    width: 100%;
+    min-height: 900px;
+    overflow: hidden;
+}
+
+.imagenfondo p {
+    color: chartreuse;
+    padding: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.imagenfondo .about {
+    margin-top: 20px;
+    color: chartreuse;
+}
+
+.imgavatar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#lang-addnew {
+    margin-top: 10px;
+}
+
+.livestream {
+    display: inline-block;
+}
+
+.livestream a {
+    text-decoration: line-through black;
+    font-size: 0.7em;
+}
+
+.livestream a h2 {
+    z-index: 2;
+}
+
+.livestream i {
+    padding-left: 5px;
+    font-size: 1.25em;
+}
+
+.livevideo {
+    width: 280px;
+    margin: 30px 0 0 30px;
+}
+
+.livevideo h3 {
+    font-size: 1.5em;
+    color: chartreuse;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logged {
+    color: chartreuse;
+    text-align: center;
+    z-index: 100;
+}
+
+.logged .social {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.logged .social i {
+    font-size: 1.85em;
+}
+
+.logged .loggedcheck {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.logged p {
+    display: inline;
+    color: chartreuse;
+    font-size: 1.70em;
+}
+
+.logged i {
+    padding-top: 15px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.logged .signout {
+    padding: 0;
+    vertical-align: auto;
+    font-size: 2em;
+    color: chartreuse;
+    margin-left: 20px;
+}
+
+.loggeduser {
+    margin-right: 20px;
+    font-size: 1.85em;
+    vertical-align: super;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 3.8em;
+    color: chartreuse;
+}
+
+.mysets {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: chartreuse;
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menufooter ul li {
+    display: inline;
+    margin: 0 30px;
+    font-size: 2em;
+}
+
+.menufooter ul li a {
+    font-size: 0.7em !important;
+    padding-bottom: 60px !important;
+}
+
+.menufooter ul {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px 0;
+}
+
+.musicplayer {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.3) 95%, rgba(0, 0, 0, 0) 100%);
+}
+
+.mytracks {
+    font-size: 2.5em;
+    margin-top: 20px;
+    display: block;
+    color: chartreuse;
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    font-size: x-large;
+    float: center;
+    width: 100%;
+    margin: 0;
+    display: inline;
+    color: chartreuse;
+    z-index: 1000;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+nav a img {
+    width: 10%;
+    margin: 10px 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+nav ul li {
+    font-family: "swiperace";
+    display: inline;
+    color: chartreuse;
+    font-size: 1em;
+}
+
+.navlogged ul li {
+    font-family: "swiperace";
+    font-size: 0.8em;
+    margin: 0;
+}
+
+nav ul li a {
+    font-family: "swiperace";
+    font-size: 0.6em;
+    display: inline;
+    padding: 10px 5px;
+    color: chartreuse;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.nickArtist {
+    color: chartreuse;
+    font-size: 2.7em;
+}
+
+.playall {
+    font-size: 1em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playall span {
+    margin: 20px 150px 0 150px;
+    background-color: chartreuse;
+    border-radius: 100px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+footer .policy {
+    position: fixed;
+    bottom: 0;
+    background-color: chartreuse;
+}
+
+.policy div {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.policy div .siButton {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.policy p {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.policy h3 {
+    font-size: 2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.imagenfondo.masInfo {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagenfondo.masInfo p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.policy button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    border-radius: 100px;
+    padding: 5px 30px;
+}
+
+.profilemessage {
+    font-size: 0.7em;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    color: chartreuse;
+    text-align: center;
+    list-style: none;
+}
+
+.profile-navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.profile-navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.profile-navbar ul li {
+    color: chartreuse;
+    font-size: 0.8em;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.profile-navbar ul li.navitem-active {
+    background-color: chartreuse;
+    color: black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.profile-navbar .navbar-item {
+    display: none;
+}
+
+.profile-navbar .navbar-item.navbar-active {
+    display: block;
+}
+
+.proform {
+    margin-top: 50px;
+}
+
+.proform button {
+    width: 280px;
+    font-size: 0.8em;
+    padding: 4px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.proform .nickn {
+    width: 60%;
+    display: block;
+}
+
+.proxEvent {
+    color: gold !important;
+}
+
+.recommended {
+    display: block;
+    color: chartreuse;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 2px solid chartreuse;
+}
+
+.recovery {
+    width: 45%;
+}
+
+.recoverypass {
+    color: chartreuse;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-decoration: underline chartreuse;
+}
+
+.red {
+    color: rgb(180, 7, 7);
+}
+
+option {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+option.odisabled {
+    background-color: unset;
+}
+
+.search {
+    font-family: "swiperace";
+    background-color: transparent;
+    border: none;
+    color: chartreuse;
+    font-size: 0.6em;
+    width: 130px;
+    text-align: center;
+}
+
+.search::-webkit-input-placeholder {
+    color: chartreuse;
+    text-align: center;
+}
+
+.setrackimage {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0;
+}
+
+.setrackimage:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.setprofileimg {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.setprofileimg:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+@keyframes SETANI {
+    100% {}
+}
+
+.songname {
+    width: 60%;
+}
+
+.spinner {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: 1000;
+}
+
+.spinner i {
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 48%;
+    font-size: 7em;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+textarea::-webkit-input-placeholder {
+    color: chartreuse;
+}
+
+.tittle {
+    text-align: center;
+    color: chartreuse;
+    font-size: 5.8em;
+    font-family: "swiperace";
+    line-height: 0.8em;
+}
+
+.tittle img {
+    width: 120px;
+    height: 80px;
+    margin: 15px 5px 0px 5px;
+}
+
+.toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.track {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.track img {
+    width: 20%;
+    display: block;
+    float: left;
+}
+
+.trackinfo {
+    width: 80%;
+    display: block;
+    float: left;
+}
+
+.trackinfo h2 {
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.trackinfo h3 {
+    padding: 7px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.trackinfo h3 span {
+    font-size: 0.8em;
+}
+
+.trackinfo h2 span {
+    font-size: 0.6em;
+}
+
+.ui-dialog {
+    background-color: transparent !important;
+    position: fixed !important;
+    top: 10px !important;
+    right: 10px !important;
+    left: unset !important;
+}
+
+.ui-dialog-titlebar {
+    background-color: chartreuse;
+    color: black;
+}
+
+.ui-menu-item-wrapper {
+    font-family: sans-serif;
+}
+
+.ui-button-icon-space {
+    width: 10px !important;
+}
+
+h3.updComEv {
+    font-size: 1.2em;
+    color: chartreuse;
+    border-bottom: 3px solid chartreuse;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.uploadbtn {
+    font-size: 0.8em;
+    width: 280px;
+    height: 13px;
+    padding: 4px;
+    background-color: chartreuse;
+    color: black;
+    display: block;
+    margin: 10px auto;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.userlogged {
+    display: inline;
+    font-size: 0.8em;
+    color: chartreuse;
+    vertical-align: super;
+}
+
+.z {
+    font-family: "graffiti";
+    position: absolute;
+    font-size: 4em;
+    /* -webkit-transform: rotate(-18deg); */
+    z-index: -1;
+    color: gold;
+    text-shadow: 2px 2px black;
+}
+
+
+/* .uploadbtn:hover{
+    border: none;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+} */
