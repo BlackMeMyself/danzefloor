@@ -1,0 +1,238 @@
+CRITICAL - 2021-07-26 22:29:59 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:30:00 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:30:00 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:30:00 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:37:54 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:01 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:04 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:04 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:17 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:18 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:18 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:41:31 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:42:58 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:50:39 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\system\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('email', 'aphex@gmail.com', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->whereIn('email', 'aphex@gmail.com')
+#2 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-26 22:57:30 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 334, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(334): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:57:32 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 334, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(334): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 22:57:33 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 334, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(334): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:25:51 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 367, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(367): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:28:01 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 367, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(367): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:28:03 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 367, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(367): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:29:26 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(368): mail('davidethefirst....', 'RECUPERAR CONTR...', 'hola')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:29:29 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(368): mail('davidethefirst....', 'RECUPERAR CONTR...', 'hola')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:29:31 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(368): mail('davidethefirst....', 'RECUPERAR CONTR...', 'hola')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:29:33 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(368): mail('davidethefirst....', 'RECUPERAR CONTR...', 'hola')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:29:35 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(368): mail('davidethefirst....', 'RECUPERAR CONTR...', 'hola')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:31:07 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 367, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(367): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:32:15 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 366, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(366): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:32:17 --> mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): &quot;s...', 'C:\\xampp\\htdocs...', 366, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(366): mail('davidethefirst....', 'RECUPERAR CONTR...', '\n\t\t\t\t<html>\n\t\t\t...', 'MIME-Version: 1...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-26 23:45:52 --> require(../Libraries/Exception.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\app\Controllers\Web.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(../Libr...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(5): require()
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 [internal function]: spl_autoload_call('App\\Controllers...')
+#7 C:\xampp\htdocs\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#8 C:\xampp\htdocs\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

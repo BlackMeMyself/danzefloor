@@ -283,7 +283,7 @@
 }
 
 body {
-    background-color: lightgreen;
+    background-color: #d4d400;
     /* Smoothly transition the background color */
     transition: background-color .5s;
 }
@@ -296,7 +296,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: chartreuse;
+    color: #d4d400;
     width: 100%;
     margin-bottom: 30px;
 }

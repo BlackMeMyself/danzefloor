@@ -1,0 +1,7 @@
+CRITICAL - 2021-07-27 22:47:02 --> Too few arguments to function PHPMailer\PHPMailer\PHPMailer::addAddress(), 0 passed in C:\xampp\htdocs\app\Controllers\Web.php on line 365 and at least 1 expected
+#0 C:\xampp\htdocs\app\Controllers\Web.php(365): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,168 @@
+CRITICAL - 2021-09-01 17:30:48 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:28 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:30 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:31 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:36 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:37 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:37 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:38 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:38 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:38 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:38 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:38 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:12:39 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:13:23 --> Undefined variable: track
+#0 C:\xampp\htdocs\app\Views\pages\results.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-01 19:13:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'artists', '14', 'rdj.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 19:13:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'Screenshot_2021...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 19:13:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'Screenshot_2021...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-01 19:13:58 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'images.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

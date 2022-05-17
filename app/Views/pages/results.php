@@ -135,7 +135,7 @@
             name: title,
             artist: '<?php echo $user[0]["user"] ?>',
             image: image,
-            path: type+'/'+user+'/'+title
+            path: type + '/' + user + '/' + title
         }]
         loadTrack(track_index);
         playTrack();
@@ -163,7 +163,12 @@
                     }
                 });
             } else {
-                $("#dialogmsg").html(res.error["id_file"]);
+                if (res.error["id_file"] != undefined) {
+                    $("#dialogmsg").html(res.error["id_file"]);
+                } else {
+                    $("#dialogmsg").html(res.msg);
+                }
+
                 $("#dialog").dialog({
                     show: {
                         effect: "scale",

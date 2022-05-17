@@ -1,0 +1,60 @@
+CRITICAL - 2021-08-31 19:18:08 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 19:18:10 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 19:18:12 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 19:18:12 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 19:18:13 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-31 19:18:13 --> Undefined variable: stracket
+#0 C:\xampp\htdocs\app\Views\pages\results.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

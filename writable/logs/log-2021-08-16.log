@@ -1,0 +1,178 @@
+CRITICAL - 2021-08-16 22:05:49 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:05:54 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:08:16 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:09:01 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:09:41 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:09:44 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:10:20 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:10:23 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:10:43 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:12:37 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'artists', '14', 'rdj.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 22:12:49 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:12:50 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:12:50 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:12:50 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:13:24 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:13:32 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\results.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:14:11 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '15', 'vinilo-escudo-v...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 22:14:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'artists', '15', 'Dave-Clarke.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 22:14:12 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '15', 'rdj.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

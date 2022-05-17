@@ -1,0 +1,7 @@
+CRITICAL - 2021-08-07 23:03:26 --> Undefined variable: riutes
+#0 C:\xampp\htdocs\app\Config\Routes.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(780): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

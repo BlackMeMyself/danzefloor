@@ -1,0 +1,90 @@
+CRITICAL - 2021-07-09 22:40:34 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:35 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:50 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:51 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:51 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:51 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:51 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:52 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:52 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-09 22:40:52 --> Invalid file: pages/events.php
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/events.ph...')
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/Common.php(1119): CodeIgniter\View\View->render('pages/events', Array, true)
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/app/Controllers/Web.php(86): view('pages/events')
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->events('5')
+#4 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

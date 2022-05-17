@@ -1,0 +1,135 @@
+CRITICAL - 2021-01-30 11:32:41 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:41 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:42 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:42 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:49 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:50 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:50 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:50 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:50 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:32:51 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:33:35 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:34:21 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:34:48 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:35:08 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/artists', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(20): view('pages/artists', Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-30 11:35:10 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/artists', Array, true)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(20): view('pages/artists', Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-30 11:35:26 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:36:06 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:37:39 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-30 11:38:38 --> Call to undefined method App\Models\Files::finAll
+#0 C:\xampp\htdocs\app\Controllers\Web.php(15): CodeIgniter\Model->__call('finAll', Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artists()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

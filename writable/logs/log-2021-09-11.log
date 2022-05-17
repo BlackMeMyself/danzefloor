@@ -1,0 +1,10 @@
+CRITICAL - 2021-09-11 13:44:46 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\system\Database\BaseBuilder.php(2853): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ev...', Array, false)
+#2 C:\xampp\htdocs\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#3 C:\xampp\htdocs\app\Controllers\Web.php(243): CodeIgniter\Model->delete()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->main()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

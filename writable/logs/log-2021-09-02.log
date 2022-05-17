@@ -1,0 +1,226 @@
+CRITICAL - 2021-09-02 19:16:12 --> Call to undefined function App\Controllers\apc_store()
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->saveplayercookies()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-02 22:33:27 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:30 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:32 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:36 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:36 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:36 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:37 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:37 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:37 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:37 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:41 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:42 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:42 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:43 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:43 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:43 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:44 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:44 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:33:53 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:58:19 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:58:22 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-02 22:58:42 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\pages\profile.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/profile', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(234): view('pages/profile', Array)
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->profile()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

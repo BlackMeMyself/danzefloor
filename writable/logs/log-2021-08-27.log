@@ -1,0 +1,26 @@
+CRITICAL - 2021-08-27 22:22:01 --> require(/App/Libraries/Exception.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\app\Controllers\Web.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/App/Li...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(5): require()
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 [internal function]: spl_autoload_call('App\\Controllers...')
+#7 C:\xampp\htdocs\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#8 C:\xampp\htdocs\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-27 22:27:03 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\app\Controllers\Web.php(5): require()
+#2 C:\xampp\htdocs\system\Autoloader\Autoloader.php(365): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 [internal function]: spl_autoload_call('App\\Controllers...')
+#7 C:\xampp\htdocs\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#8 C:\xampp\htdocs\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

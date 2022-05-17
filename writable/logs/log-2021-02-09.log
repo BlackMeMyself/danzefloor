@@ -1,0 +1,18 @@
+CRITICAL - 2021-02-09 03:07:30 --> Too few arguments to function App\Controllers\Web::artist(), 0 passed in C:\xampp\htdocs\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-09 03:10:47 --> Too few arguments to function App\Controllers\Web::artist(), 0 passed in C:\xampp\htdocs\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-09 03:10:50 --> Too few arguments to function App\Controllers\Web::artist(), 0 passed in C:\xampp\htdocs\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist()
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

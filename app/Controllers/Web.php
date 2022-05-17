@@ -45,9 +45,12 @@ class Web extends BaseController
 		$info = $filesModel->find($_POST["id"]);
 		$favoritesModel = model("Favorites");
 		$path = "";
+		$url = "";
 		if ($info["type"] == 0) {
+			$url = "/mysets";
 			$path = "sets/" . $info["id_user"] . "/" . $info["name"];
 		} else {
+			$url = "/mytracks";
 			$path = "tracks/" . $info["id_user"] . "/" . $info["name"];
 		}
 		$data = [
@@ -58,13 +61,24 @@ class Web extends BaseController
 			"id_artist" => $info["id_user"],
 			"id_file" => $info["id"]
 		];
-		$favoritesModel->insert($data);
-		$res = [
-			"error" => $favoritesModel->errors(),
-			"msg" => "ADDED TO FAVORITES"
-		];
-		$res = json_encode($res);
-		echo $res;
+		$resultado = $favoritesModel->where($data)->findAll();
+		if (count($resultado) > 0) {
+			$res = [
+				"error" => 1,
+				"url" => $url,
+				"msg" => "ALREADY ADDED TO FAVORITES"
+			];
+			$res = json_encode($res);
+			echo $res;
+		} else {
+			$favoritesModel->insert($data);
+			$res = [
+				"error" => $favoritesModel->errors(),
+				"msg" => "ADDED TO FAVORITES"
+			];
+			$res = json_encode($res);
+			echo $res;
+		}
 	}
 	public function artist($artist)
 	{
@@ -157,7 +171,7 @@ class Web extends BaseController
 				$data["genrename"] = "TECHNO";
 				break;
 		}
-		echo view("pages/genres",$data);
+		echo view("pages/genres", $data);
 	}
 	public function checktoken($token)
 	{
@@ -572,7 +586,7 @@ class Web extends BaseController
 
 					//
 					$data["user"] = $user[0]["user"];
-					$data["url"] = "http://localhost:73/checktoken/" . $token;
+					$data["url"] = "https://danzefloor.com/checktoken/" . $token;
 
 					//Content
 					$mail->isHTML(true);                                  //Set email format to HTML

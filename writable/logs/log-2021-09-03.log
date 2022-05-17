@@ -1,0 +1,154 @@
+CRITICAL - 2021-09-03 19:17:05 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:06 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:06 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:06 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:06 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:07 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('Ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:07 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:07 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:08 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:08 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:08 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:08 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:08 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('dave clarke')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:17:32 --> Invalid file: pages/results.php
+#0 C:\xampp\htdocs\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/results.p...')
+#1 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/results', Array, true)
+#2 C:\xampp\htdocs\app\Controllers\Web.php(81): view('pages/results', Array)
+#3 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('ron')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-03 19:22:46 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'artists', '14', 'rdj.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 19:22:47 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'Screenshot_2021...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 19:22:47 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'images.jpg')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-03 19:22:47 --> Undefined offset: 0
+#0 C:\xampp\htdocs\app\Controllers\Web.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->artist('public', 'img', 'cover', '14', 'Screenshot_2021...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

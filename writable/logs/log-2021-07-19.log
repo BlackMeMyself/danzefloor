@@ -1,0 +1,13 @@
+CRITICAL - 2021-07-19 23:19:16 --> Undefined index: user
+#0 C:\xampp\htdocs\app\Views\templates\header.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\xampp\htdocs\app\Views\pages\main.php(1): view('templates/heade...')
+#4 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/main', Array, true)
+#6 C:\xampp\htdocs\app\Controllers\Web.php(119): view('pages/main')
+#7 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->main()
+#8 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#9 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2021-07-21 00:07:04 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-21 00:07:07 --> There is no data to update.
+#0 C:\xampp\htdocs\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\app\Controllers\Web.php(340): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->sendrecovery()
+#3 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

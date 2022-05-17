@@ -1,0 +1,36 @@
+CRITICAL - 2021-06-27 22:58:30 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 23:04:28 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 23:05:45 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 23:14:51 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 23:15:47 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-27 23:28:57 --> Call to a member function insert() on null
+#0 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(918): App\Controllers\Web->savetrack()
+#1 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/vhosts/39835675.servicio-online.net/danzefloor.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

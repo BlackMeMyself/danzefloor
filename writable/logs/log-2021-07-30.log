@@ -1,0 +1,90 @@
+CRITICAL - 2021-07-30 22:56:53 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 22:57:57 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 22:58:02 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:00:10 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:00:28 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:02:12 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:03:03 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:04:27 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(220): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword()
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-30 23:06:33 --> Undefined variable: token
+#0 C:\xampp\htdocs\app\Views\pages\resetpassword.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\system\Common.php(1119): CodeIgniter\View\View->render('pages/resetpass...', Array, true)
+#3 C:\xampp\htdocs\app\Controllers\Web.php(221): view('pages/resetpass...')
+#4 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->resetpassword('4tdpq1jab6k5zgc...')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

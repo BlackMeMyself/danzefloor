@@ -1,0 +1,13 @@
+CRITICAL - 2021-07-29 23:09:36 --> Object of class DateInterval could not be converted to int
+#0 C:\xampp\htdocs\app\Controllers\Web.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->checktoken('9tve6p0bhuwar74...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-29 23:11:38 --> Object of class DateInterval could not be converted to string
+#0 C:\xampp\htdocs\system\CodeIgniter.php(918): App\Controllers\Web->checktoken('9tve6p0bhuwar74...')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\xampp\htdocs\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

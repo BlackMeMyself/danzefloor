@@ -33,13 +33,13 @@
             </div>
             <?php if (isset($_SESSION["user"])) { ?>
                 <div class="loggedcheck hidden" id="loggedcheck">
-                    <i class="fa fa-user loggeduser" aria-hidden="true"></i><span class="userlogged" id="showUserName"><?php if (isset($_SESSION["user"])) echo $_SESSION["user"] ?></span>
+                    <i class="fa fa-user loggeduser" aria-hidden="false"></i><span class="userlogged" id="showUserName"><?php if (isset($_SESSION["user"])) echo $_SESSION["user"] ?></span>
                     <a href="javascript:logout('/logout/')"><i class="fa fa-sign-out signout" aria-hidden="true"></i></a>
                 </div>
             <?php } ?>
         </div>
 
-        <div class="tittle"><span class="halftittle">D4N</span><span class="z">Z</span> &nbsp;<span class="halftittle">3FL8R</span></div>
+        <div class="tittle"><span class="halftittle">DANZEFLOOR</span></div>
         <div class="toggle" onclick="toggleMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
